@@ -28,6 +28,13 @@
     flex-direction: column;
  }
 
+ .pic_book_mark img{
+   position: absolute;
+   top: -1px;
+   right: 5px;
+   width: 30px;
+ }
+
  .question_text {
     text-align: center;
  }
@@ -46,7 +53,7 @@
     
  }
  .category_item{
-    padding: 3px;px;
+    padding: 3px;
     background-color: aliceblue;
     border: 1px black solid;
     border-radius: 15%;
@@ -75,7 +82,8 @@
     flex-wrap: wrap;
     position:fixed; 
     bottom: 0;
-    width:100%
+    width:100%;
+    padding:8px
 }
 
 .nav_items {
@@ -83,3 +91,56 @@
     
 }
 
+/* styling for profile.html*/
+.profile{
+   margin: 20px;
+   display:flex;
+   flex-direction: column;
+   gap:30px;
+
+}
+
+.profile_top {
+   display: flex; 
+   flex-direction: row;
+   justify-content: space-around;
+}
+
+.profile_top img{
+   width: 80px;
+}
+
+.profile_top p{
+   font-size: 25px;
+}
+
+h2 {
+   font-size: 20px;
+}
+.count_overview {
+   display:flex;
+   flex-direction: row;
+   gap: 15px;
+}
+
+.count_widget {
+   display: flex;
+   flex-direction: row;
+   gap: 10px;
+   align-items: center;
+   border: 1px black solid;
+   padding: 5px 15px;
+   border-radius: 15%;
+
+}
+
+.count_widget img {
+   width: 40px;
+
+}
+
+.count_widget count{
+   font-size: 20px
+
+
+}
