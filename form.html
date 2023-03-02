@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles_general.css"></link>
+    <link rel="stylesheet" href="css/styles_form.css"></link>
+
+</head>
+<body data-js="body">
+    <header>
+        <h1>Quiz App</h1>
+    </header>
+    
+    <main>
+
+        <form class="form" data-js="form">
+            <label for="form_question">Your Question</label>
+            <textarea 
+                name="form_question" 
+                id="form_question" 
+                data-js="form_question"
+                rows="10"
+                cols="50">
+            </textarea>
+            
+            <label for="form_answer">Your Answer</label>
+            <textarea 
+                name="form_answer" 
+                id="form_answer" 
+                data-js="form_answer"
+                rows="10"
+                cols="50">
+            </textarea>
+
+            <label for="form_tag">Tag</label>
+            <input type:text name="form_tag" id="form_tag" data-js="form_tag"/>
+
+            <button>submit</button>
+
+        </form>
+
+    
+    </main>
+
+    <footer>
+        <nav class="nav_bar">
+            <a href="/index.html"><img src="/image/home_filled.png" alt="home" class="nav_items"></a>
+            <a href="/bookmarks.html"><img src="/image/bookmark_transparent.png" alt="book_mark" class="nav_items"></a>
+            <a href="/form.html"><img src="image/add_button.png" alt="add_questions" class="nav_items"></a>
+            <a href="/profile.html"><img src="/image/profile.png" alt="profile" class="nav_items"></a>
+        </nav>
+    </footer>     
+    
+</body>
+<script src="js/index.js"></script>
+</html>
