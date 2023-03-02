@@ -1,8 +1,8 @@
 .question_card {
     margin:20px;
-    border: solid 1px black;
+    border: solid 1px #219EBC;
     padding: 3%;
-    background-color: rgb(246, 246, 195);
+    background-color: #8ECAE6;
     position:relative;
     display:flex;
     flex-direction: column;
@@ -36,7 +36,7 @@
     padding: 3px;
     background-color: aliceblue;
     border: 1px black solid;
-    border-radius: 15%;
+    border-radius: 5px;
     font-size: x-small;
     
     
