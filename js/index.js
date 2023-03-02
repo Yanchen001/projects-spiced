@@ -38,4 +38,3 @@ showAnswerButton.addEventListener("click", (e)=> {
 
 })
 
-
