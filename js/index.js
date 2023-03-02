@@ -12,6 +12,15 @@ toggleButton.addEventListener("click", (e)=> {
 
 */
 
+/* Bookmark Toggle */
+
+const addBookMark = document.querySelector('[data-js="book_mark"]')
+const addedBookMark = document.querySelector('[data-js="book_mark_filled')
+addBookMark.addEventListener("click", (e)=> {
+    addedBookMark.toggleAttribute("hidden")
+})
+    
+    
 
 /* Show Answer*/
 
